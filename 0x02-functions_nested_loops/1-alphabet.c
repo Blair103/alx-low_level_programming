@@ -1,12 +1,9 @@
 #include "main.h"
 #include <unistd.h>
-
 /**
- * main - Entry point
- * Description: Prints alhabets
- * Return: 0 (success)
- */
-
+* print_alphabet - Entry point
+* Return:0
+*/
 void print_alphabet(void)
 {
 char c = 'a';

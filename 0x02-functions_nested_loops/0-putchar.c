@@ -1,10 +1,13 @@
-#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - program that prints _putchar
- * Return: 0 (success)
- */
-
-int _putchar(char c)
+* main - Entry point
+*
+* Return: Always 0 (success)
+*/
+int main(void)
 {
-	return (write(1, &c, 1));
+printf("_putchar\n");
+return (0);
 }
